@@ -3,7 +3,7 @@ Deep Learning applied to Bitcoin
 
 
 
-![Deep Learning](Images/robot.jpg)
+![Deep Learning](Images/deep-learning.jpg)
 
 Enclosed please find two Jupyter Lab notebooks, each modeling the bitcoin closing prices in regard to the [Crypto Fear and Greed Index (FNG)](https://alternative.me/crypto/fear-and-greed-index/). 
 
