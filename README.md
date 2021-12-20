@@ -13,6 +13,14 @@ This modeling was done in two different ways: one model applies FNG indicators, 
 
 Libraries
 
+-- numpy
+
+-- pandas
+
+--hvplot
+
+--tensorflow
+
 
 # Acknowledgements
 
