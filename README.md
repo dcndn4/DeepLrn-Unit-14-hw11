@@ -28,5 +28,5 @@ Libraries
 
 # Acknowledgements
 
-I would like to first acknowledge the guidance and teaching of our FinTech Boot Camp Instructor, Garth Mortensen, our Student Success Manager, Angelica Baraona; and the whole team behind the curriculum, the logistics, the whole program. I also found the collective Stack Overflow wisdom essential as ever. I didn't use any additional books, because of all the topics covered in this program, this honestly isn't my favorite. I've bought quite a few already, and also - minor point - not a lot of great sources to choose from it looks like. Happy to be more aware of these functionalities going forward, and will continue to pay attention as the field continues to advance!
+I would like to first acknowledge the guidance and teaching of our FinTech Boot Camp Instructor, Garth Mortensen, our Student Success Manager, Angelica Baraona; and the whole team behind the curriculum, the logistics, the whole program. I also found the collective Stack Overflow wisdom essential as ever. My other available resource was 'Hands-On Machine Learning with Scikit-Learn, Keras & TensorFlow' by Aurelien Geron. Happy to be more aware of these functionalities going forward, and will continue to pay attention as the field continues to advance!
 
