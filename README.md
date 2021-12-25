@@ -7,7 +7,7 @@ Deep Learning applied to Bitcoin
 
 Enclosed please find two Jupyter Lab notebooks, each modeling bitcoin closing prices using Recurrent Neural Networks (RNN's).  This modeling was done in two different ways: one model applies FNG indicators, while the other model is restricted to closing price data alone. 
 
-FNG (Fear and Greed) indictors relate to the [Crypto Fear and Greed Index (FNG)](https://alternative.me/crypto/fear-and-greed-index/), which ranges from 0 (“Extreme Fear”) to 100 (“Extreme Greed”); and is currently in the 'Fear' zone.
+FNG (Fear and Greed) indictors relate to the [Crypto Fear and Greed Index (FNG)](https://alternative.me/crypto/fear-and-greed-index/), which was launched by Alternative in January of 2018 ranges from 0 (“Extreme Fear”) to 100 (“Extreme Greed”); and is currently in the 'Fear' zone.
 
 [FNG Index Dial](![image](https://user-images.githubusercontent.com/90283165/147389087-aa8dd046-8aa0-4305-b830-5848fc2b517f.png)
 
@@ -19,7 +19,7 @@ The Crypto Fear and Greed Index is based on three factors:
 
 [] Volatility. This means how much a cryptocurrency fluctuates in price over time.
 
-The fear and greed index was derived from the stock market-based fear and greed index developed by CNNMoney related to investors purchases of pubicly-traded stocks. That original index was based on seven factors:
+The fear and greed index was derived from the stock market-based fear and greed index developed by CNNMoney in 2014 related to investors purchases of pubicly-traded stocks. That original index was based on seven factors:
 
 
 [] Stock Price Momentum - A measure of the Standard & Poor's 500 Index (S&P 500) versus its 125-day moving average (MA).
@@ -38,7 +38,11 @@ The fear and greed index was derived from the stock market-based fear and greed 
 
 Behavioral economists find a strong correlation between emotion and behavior, and also between the FNG index and stock prices. Two points in time in particular are of note: the stock-related FNG index sank to a low of 12 on Sept. 17, 2008 after [Lehman Brothers declared bankruptcy](https://www.investopedia.com/articles/economics/09/lehman-brothers-collapse.asp) and AIG nearly closed as well. At the opposite end of the spectrum, the stock-related FNG traded over 90 in September 2012 in response to a positive global reaction to the US Federal Reserves policies. 
 
+The underlying concern of the fear and greed indexes are volatility, which is measured (as volatility and investor reaction to volatility) by the CBOE Volatility index, established by the Chicago Board Options Exchange in 1993 - also referred to as the VIX. The VIX calculation process has subsequently been refined over time. It ranges from 0 to 40.. anything over 30 indicates extreme fearfulness on the part of investors to the level of volatility. A vix score below 20 indicates a comfort level with market conditions.  
+
 This modeling was done in two different ways: one model applies FNG indicators, while the other model is restricted to closing price data alone. Both models use Recurrent Neural Networks (RNN's). 
+
+One idea to improve results would be to incude more data.. the FNG index goes back to January of 2018 (and that data was all provided), our dataset for historical prices went back to July 2019. So additional data on historical prices from January 2018 to June 2019 could be added to the analysis. 
 
 Also added a time tracking feature to start being aware of length of time various functions run.
 
