@@ -50,6 +50,16 @@ One idea to improve results would be to incude more data.. the FNG index goes ba
 
 Another idea for improving results would be to derive or regain the base data that the FNG was calculated on over the timeframe, and using those 3 data sets, see if those (all 3 together, or price plus volatility, or price plus volume) would have more predictive effectiveness than the FNG itself in relation to price alone. 
 
+A third idea would be to translate some of the elements of the original FNG index, related to stocks, to cryptocurrencies. This could perhaps include:
+
+[] Crypto Price Momentum - A measure of the major cryptocurrencies (bitcoin, ethereum, and ripple) versus their 125-day moving average (MA).
+
+[] Crypto Price Strength - The number of cryptocurrencies hitting 52-week highs versus those hitting 52-week lows.
+
+[] Crypto Price Breadth - Analyzing the volumes in rising vs. declining cryptocurrencies.
+
+[] Risk Appetite - Gauging appetite for higher risk strategies by measuring the spread between yields on various cryptocurrencies, or between cryptocurrencies and NFT's perhaps.
+
 # Other aspects
 
 These notebooks also contain a time tracking feature to indicate length of runtime.
