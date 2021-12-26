@@ -5,11 +5,13 @@ Deep Learning applied to Bitcoin
 
 ![Deep Learning](Images/deep-learning.jpg)
 
-Enclosed please find two Jupyter Lab notebooks, each modeling bitcoin closing prices using Recurrent Neural Networks (RNN's).  This modeling was done in two different ways: one model applies FNG indicators, while the other model is restricted to closing price data alone. 
+Enclosed please find two Jupyter Lab notebooks, each modeling bitcoin closing prices using a type of Recurrent Neural Networks (RNN's) called Long Short-Term Memory Network (LSTM).  This modeling was done with two data inputs: one model used FNG indicators, while the other model was restricted to closing price data alone. 
+
+# Background - FNG Index
 
 FNG (Fear and Greed) indictors relate to the [Crypto Fear and Greed Index (FNG)](https://alternative.me/crypto/fear-and-greed-index/), which was launched by Alternative in January of 2018 ranges from 0 (“Extreme Fear”) to 100 (“Extreme Greed”); and is currently in the 'Fear' zone.
 
-[FNG Index Dial](![image](https://user-images.githubusercontent.com/90283165/147389087-aa8dd046-8aa0-4305-b830-5848fc2b517f.png)
+[FNG Index Dial](![image](https://user-images.githubusercontent.com/90283165/147410164-022d2885-bab1-4b36-b6fa-65c7bfccb41d.png)
 
 The Crypto Fear and Greed Index is based on three factors:
 
@@ -42,11 +44,15 @@ The underlying concern of the fear and greed indexes are volatility, which is me
 
 This modeling was done in two different ways: one model applies FNG indicators, while the other model is restricted to closing price data alone. Both models use Recurrent Neural Networks (RNN's). 
 
+# Ideas for Future Improvements
+
 One idea to improve results would be to incude more data.. the FNG index goes back to January of 2018 (and that data was all provided), our dataset for historical prices went back to July 2019. So additional data on historical prices from January 2018 to June 2019 could be added to the analysis. 
 
 Another idea for improving results would be to derive or regain the base data that the FNG was calculated on over the timeframe, and using those 3 data sets, see if those (all 3 together, or price plus volatility, or price plus volume) would have more predictive effectiveness than the FNG itself in relation to price alone. 
 
-Also added a time tracking feature to start being aware of length of time various functions run.
+# Other aspects
+
+These notebooks also contain a time tracking feature to indicate length of runtime.
 
 # Technical Notes
 
