@@ -53,8 +53,8 @@ The data was scaled using a MinMaxScaler object and reshaped to fit the model. T
 # Results
 
 The results using closing price data was a loss of: 0.0372; while the results using FNG data was a loss of: 0.0685. 
-![Closing Price](Images/Closing.jpg)
-![FNG](Images/FNG.jpg)
+![Closing Price](Images/Closing Price Real v Predicted.jpg)
+![FNG](Images/FNG Real v Predicted.jpg)
 
 # Ideas for Future Improvements
 
