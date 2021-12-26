@@ -42,7 +42,18 @@ Behavioral economists find a strong correlation between emotion and behavior, an
 
 The underlying concern of the fear and greed indexes are volatility, which is measured (as volatility and investor reaction to volatility) by the CBOE Volatility index, established by the Chicago Board Options Exchange in 1993 - also referred to as the VIX. The VIX calculation process has subsequently been refined over time. It ranges from 0 to 40.. anything over 30 indicates extreme fearfulness on the part of investors to the level of volatility. A vix score below 20 indicates a comfort level with market conditions.  
 
-This modeling was done in two different ways: one model applies FNG indicators, while the other model is restricted to closing price data alone. Both models use Recurrent Neural Networks (RNN's). 
+# Data Inputs
+
+Inputs included FNG index results and bitcoin closing prices from January 2018 to July 2019. The training portion was set to 70%, leaving 30% of the data for testing. 
+
+# Data Modeling
+
+The data was scaled using a MinMaxScaler object and reshaped to fit the model. The Long Short-Term Memory Network (LSTM) Recurrent Neural Networks (RNN) used was sequential, with a time window of 5, a dropout fraction of .2, and 3 layers. The model was trained using 10 epochs. 
+
+# Results
+
+The results using closing price data was a loss of: 0.0372; while the results using FNG data was a loss of: 0.0685. 
+
 
 # Ideas for Future Improvements
 
