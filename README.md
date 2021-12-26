@@ -80,6 +80,8 @@ A third idea would be to translate some of the elements of the original FNG inde
 
 # Other aspects
 
+A random number seed was included to ensure that the results were reproducible.
+
 These notebooks also contain a time tracking feature to indicate length of runtime.
 
 # Technical Notes
@@ -93,6 +95,8 @@ Libraries
 --hvplot
 
 --tensorflow
+
+--sklearn
 
 --time
 
