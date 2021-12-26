@@ -96,9 +96,9 @@ The results with the number of layers increased to 4 using closing price data sa
 
 The results with an increased number of epochs from 10 to 15 (with the rolling window size held to 5 days still, and the number of layers switched back to 3 instead of 4) were the best yet, in both cases.
 
-![Closing Price w: 5](Images/close_w5_e15.png)
+![Closing Price w: E15](Images/close_w5_e15.png)
 
-![FNG](Images/FNG_w5_e15.png)
+![FNG w: E15](Images/FNG_w5_e15.png)
 
 The results with the number of epochs increased to 15 using closing price data saw the lowest loss value yet: .0136; while the results using FNG data was a loss value of only .0432.   
 
