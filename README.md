@@ -50,9 +50,13 @@ Inputs included FNG index results and bitcoin closing prices from January 2018 t
 
 The data was normalized (or scaled) using a MinMaxScaler object so that the values were compressed into a range of 0 to 1, in order to best fit the model.  The data features were reshaped into an using numpy.reshape in order to fit the model. 
 
-# Data Modeling
+# Building the Model
 
 The Long Short-Term Memory Network (LSTM) Recurrent Neural Networks (RNN) used was sequential, with a time window of 5, a dropout fraction of .2, and 3 layers. The model was trained using 10 epochs. 
+
+# Training the Model
+
+During training, shuffle was set to 'off', which allows the LSTM model to build its awareness of the data from internal state to internal state during the training process. In order for each LSTM lawyer in the stack to keep info in place,  the 'return_sequence' parameter is set to 'True' for all but the final layer.
 
 # Results
 
