@@ -84,13 +84,13 @@ The results with window size changed from 10 to 5 using closing price data saw a
 
 ## Results - Number of layers increased from 3 to 4 (and Window parameter still at 5 days)
 
-The results with an updated parameter of the rolling window size being 5 days instead of 10 yielded more accurate results for the closing price-based model, but worse results with the FNG-based model. 
+The results with an increased number of layers from 3 to 4 (with the rolling window size held to 5 days still) had the effect of sligthly worsened results in both cases. 
 
 ![Closing Price w: 5](Images/close_w5_l4.png)
 
 ![FNG](Images/FNG_w5_l4.png)
 
-The results with window size changed from 10 to 5 using closing price data saw a change in loss value from: 0.0372 to .0178; while the results using FNG data was a change in loss value from: 0.0685 to .0462. However from the graph the match looks much less accurate. 
+The results with the number of layers increased to 4 using closing price data saw a change in loss value from: .0178 to .019; while the results using FNG data was a change in loss value from: .0462 to .05. 
 
 # Ideas for Future Improvements
 
