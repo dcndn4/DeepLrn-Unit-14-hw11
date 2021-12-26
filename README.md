@@ -68,11 +68,11 @@ The results using closing price data was a loss of: 0.0372; while the results us
 
 # Ideas for Future Improvements
 
-One idea to improve results would be to incude more data.. the FNG index goes back to January of 2018 (and that data was all provided), our dataset for historical prices went back to July 2019. So additional data on historical prices from January 2018 to June 2019 could be added to the analysis. 
+One idea to improve results would be to incude more recent data.. the FNG index goes back to January of 2018 (and that data was all provided), and then our dataset ended in July 2019. So additional data on historical prices from August 2019 to the present could be added to the analysis. 
 
-Another idea for improving results would be to derive or regain the base data that the FNG was calculated on over the timeframe, and using those 3 data sets, see if those (all 3 together, or price plus volatility, or price plus volume) would have more predictive effectiveness than the FNG itself in relation to price alone. 
+Another idea for improving results would be to use Crypto FNG data elements, and/or go back farther into historical data. I could derive or regain the base data that the FNG was calculated on, and using those 3 data sets, see if those (all 3 together, or price plus volatility, or price plus volume) would have more predictive effectiveness than the FNG itself in relation to price alone. Those 3 components are available in relation to periods priod to when the Crypto FNG index was launched, so the data analysis could start with those earlier periods in that case also.
 
-A third idea would be to translate some of the elements of the original FNG index, related to stocks, to cryptocurrencies. This could perhaps include:
+A third idea would be to translate some of the elements of the original FNG index - related to stocks - to cryptocurrencies-based information. This could perhaps include:
 
 [] Crypto Price Momentum - A measure of the major cryptocurrencies (bitcoin, ethereum, and ripple) versus their 125-day moving average (MA).
 
