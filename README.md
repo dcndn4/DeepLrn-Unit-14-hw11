@@ -52,9 +52,14 @@ The data was scaled using a MinMaxScaler object and reshaped to fit the model. T
 
 # Results
 
+Predictions were made using that model, and then the data was transformed back into it's original date-based framework. It was then matched with actual data within that test data from (February 2019 - August 2019). 
+
+
+![Closing Price](Images/Closing_Price_Real_v_Predicted.png)
+
+![FNG](Images/FNG_Real_v_Predicted.png)
+
 The results using closing price data was a loss of: 0.0372; while the results using FNG data was a loss of: 0.0685. 
-![Closing Price](Images/Closing Price Real v Predicted.png)
-![FNG](Images/FNG Real v Predicted.png)
 
 
 # Ideas for Future Improvements
