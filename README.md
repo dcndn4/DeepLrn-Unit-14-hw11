@@ -5,7 +5,7 @@ Deep Learning applied to Bitcoin
 
 ![Deep Learning](Images/deep-learning.jpg)
 
-Enclosed please find two Jupyter Lab notebooks, each modeling bitcoin closing prices using a type of Recurrent Neural Networks (RNN's) called Long Short-Term Memory Network (LSTM).  This modeling was done with two data inputs: one model used FNG indicators, while the other model was restricted to closing price data alone. 
+Enclosed please find two Jupyter Lab notebooks, each modeling bitcoin closing prices using a type of Recurrent [Neural Networks](https://playground.tensorflow.org/#activation=sigmoid&batchSize=10&dataset=gauss&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=1&seed=0.13671&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=true&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false) (RNN's) called Long Short-Term Memory Network (LSTM).  This modeling was done with two data inputs: one model used FNG indicators, while the other model was restricted to closing price data alone. 
 
 # Background - FNG Index
 
