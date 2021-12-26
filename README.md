@@ -92,6 +92,20 @@ The results with an increased number of layers from 3 to 4 (with the rolling win
 
 The results with the number of layers increased to 4 using closing price data saw a change in loss value from: .0178 to .019; while the results using FNG data was a change in loss value from: .0462 to .05. 
 
+## Results - Number of epochs increased from 10 to 15 (Window parameter still at 5 days, layers reduced back to 3 from 4)
+
+The results with an increased number of epochs from 10 to 15 (with the rolling window size held to 5 days still, and the number of layers switched back to 3 instead of 4) were the best yet, in both cases.
+
+![Closing Price w: 5](Images/close_w5_e15.png)
+
+![FNG](Images/FNG_w5_e15.png)
+
+The results with the number of epochs increased to 15 using closing price data saw the lowest loss value yet: .0136; while the results using FNG data was a loss value of only .0432.   
+
+## Optimal Results 
+
+The model with the lowest loss was the model using closing price data, using 15 epochs and a rolling window size of 5. That loss amount was .0136. I believe that that model also tracked the values better over time, per the graphical data. The window size of 5 worked the best. 
+
 # Ideas for Future Improvements
 
 One idea to improve results would be to incude more recent data.. the FNG index goes back to January of 2018 (and that data was all provided), and then our dataset ended in July 2019. So additional data on historical prices from August 2019 to the present could be added to the analysis. 
