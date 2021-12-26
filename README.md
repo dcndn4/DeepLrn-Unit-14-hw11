@@ -46,9 +46,13 @@ The underlying concern of the fear and greed indexes are volatility, which is me
 
 Inputs included FNG index results and bitcoin closing prices from January 2018 to July 2019. The training portion was set to 70%, leaving 30% of the data for testing. 
 
+# Data Preprocessing
+
+The data was normalized (or scaled) using a MinMaxScaler object so that the values were compressed into a range of 0 to 1, in order to best fit the model.  The data features were reshaped into an using numpy.reshape in order to fit the model. 
+
 # Data Modeling
 
-The data was scaled using a MinMaxScaler object and reshaped to fit the model. The Long Short-Term Memory Network (LSTM) Recurrent Neural Networks (RNN) used was sequential, with a time window of 5, a dropout fraction of .2, and 3 layers. The model was trained using 10 epochs. 
+The Long Short-Term Memory Network (LSTM) Recurrent Neural Networks (RNN) used was sequential, with a time window of 5, a dropout fraction of .2, and 3 layers. The model was trained using 10 epochs. 
 
 # Results
 
