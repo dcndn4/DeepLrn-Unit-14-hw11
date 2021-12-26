@@ -44,7 +44,7 @@ The underlying concern of the fear and greed indexes are volatility, which is me
 
 # Data Inputs
 
-Inputs included FNG index results and bitcoin closing prices from January 2018 to July 2019. The training portion was set to 70%, leaving 30% of the data for testing. 
+Inputs included FNG index results and bitcoin closing prices from January 2018 to July 2019. The data was changed using a rolling window of number of days, that is a parameter that was modified for best results. The training portion was set to 70%, leaving 30% of the data for testing. 
 
 # Data Preprocessing
 
@@ -62,13 +62,23 @@ During training, shuffle was set to 'off', which allows the LSTM model to build 
 
 Predictions were made using that model, and then the data was transformed back into it's original date-based framework. It was then matched with actual data within that test data from (February 2019 - August 2019). 
 
+## Results - original parameters
+
 
 ![Closing Price](Images/closing.png)
 
 ![FNG](Images/FNG.png)
 
-The results using closing price data was a loss of: 0.0372; while the results using FNG data was a loss of: 0.0685. 
+The results with original parameters using closing price data was a loss of: 0.0372; while the results using FNG data was a loss of: 0.0685. 
 
+## Results - updated parameters
+
+
+The results with an updated parameter of the rolling window size being 5 days instead of 10 yielded more accurate results for the closing price-based model, but worse results with the FNG-based model. 
+
+
+
+The results with window size changed from 10 to 5 using closing price data saw a change in loss value from: 0.0372 to .0178; while the results using FNG data was a change in loss value from: 0.0685 to .0462. However from the graph the match looks much less accurate. 
 
 # Ideas for Future Improvements
 
