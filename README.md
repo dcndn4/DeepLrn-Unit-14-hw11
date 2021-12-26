@@ -76,7 +76,9 @@ The results with original parameters using closing price data was a loss of: 0.0
 
 The results with an updated parameter of the rolling window size being 5 days instead of 10 yielded more accurate results for the closing price-based model, but worse results with the FNG-based model. 
 
+![Closing Price w: 5](Images/close_w5.png)
 
+![FNG](Images/FNG_w5.png)
 
 The results with window size changed from 10 to 5 using closing price data saw a change in loss value from: 0.0372 to .0178; while the results using FNG data was a change in loss value from: 0.0685 to .0462. However from the graph the match looks much less accurate. 
 
